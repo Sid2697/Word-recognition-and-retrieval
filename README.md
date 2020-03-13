@@ -4,7 +4,7 @@ Fused Text Recogniser and Deep Embeddings Improve Word Recognition and Retrieval
 <!-- [![arXiv](https://img.shields.io/badge/cs.cv-arXiv%3A1908.05849-42ba94.svg)](http://arxiv.org/abs/1908.05849) -->
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-### [Project page]() | [Demonstration](https://sid2697.github.io/files/Word_Retrieval_demo.gif) | [Poster](https://sid2697.github.io/files/Siddhant_Bansal_V4.pdf) | Paper
+### [Project page](https://sid2697.github.io/Word-recognition-and-retrieval/) | [Demonstration](https://sid2697.github.io/files/Word_Retrieval_demo.gif) | [Poster](https://sid2697.github.io/files/Siddhant_Bansal_V4.pdf) | Paper
 
 This repository contains code for the paper
 
