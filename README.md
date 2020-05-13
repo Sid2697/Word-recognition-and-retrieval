@@ -9,46 +9,12 @@ Fused Text Recogniser and Deep Embeddings Improve Word Recognition and Retrieval
 This repository contains code for the paper
 
 "**Fused Text Recogniser and Deep Embeddings Improve Word Recognition and Retrieval**" *[Siddhant Bansal](https://sid2697.github.io), [Praveen Krishnan](https://kris314.github.io), [C.V. Jawahar](https://faculty.iiit.ac.in/~jawahar/index.html)* 
-<!-- TODO published in DAS 2020 -->
+published in DAS 2020.
 
-Table of contents:
------------
-
-- [About the project](#about-the-project)
-- [Summary](#summary)
-- [Results](#results)
-    - [Word Recognition](#word-recognition)
-    - [Word Retrieval](#word-retrieval)
-- [Usage](#usage)
-    - [Install Pre-requisites](#install-pre-requisites)
-    - [Generating/using deep embeddings](#generating/using-deep-embeddings)
-    - [Running the code](#running-the-code)
-- [Contact](#contact)
-
-About the project
------------
-This project was a part of my research work at [CVIT](http://cvit.iiit.ac.in), [IIIT-Hyderabad](https://www.iiit.ac.in) with [Dr Praveen Krishnan](https://kris314.github.io) and [Dr C.V. Jawahar](https://faculty.iiit.ac.in/~jawahar/index.html). This project aimed to devise novel methods to improve word recognition and retrieval by exploiting the best attributes of text recogniser system and deep embeddings.
-
-Summary
------------
-Recognition and retrieval of textual content from the large document collections have been a powerful use case for the document image analysis community. Often the word is the basic unit for recognition as well as retrieval. Systems that rely only on the text recogniser’s (OCR) output are not robust enough in many situations, especially when the word recognition rates are poor, as in the case of historic documents or digital libraries. An alternative has been word spotting based methods that retrieve/match words based on a holistic representation of the word. In this paper, we fuse the noisy output of text recogniser with a deep embeddings representation derived out of the entire word. We use average and max fusion for improving the ranked results in the case of retrieval. We validate our methods on a collection of Hindi documents. We improve word recognition rate by 1.4% and retrieval by 11.13% in the mAP.
-
-![Word Recognition methods](images/Word_recognition_pipeline.png)
-<!-- TODO Add link -->
-Methods used for improving word recognition. For more details refer [paper]().
-
-
-![Word Retrieval methods](images/Word_retreival_pipeline.png)
-<!-- TODO Add link -->
-Methods used for improving word retrieval. For more details refer [paper]().
-
-Results
------------
-### Word Recognition
-
+### Word Recognition Results
 ![Word Recognition](images/WordRecVisualisation.png)
 
-### Word Retrieval
+### Word Retrieval Demonstration
 ![Word Retrieval](images/Word_Retrieval_demo.gif)
 
 Usage
@@ -58,7 +24,7 @@ Usage
 git clone https://github.com/Sid2697/Word-recognition-and-retrieval.git
 ```
 ### Install Pre-requisites
-- Python3
+- Python >= 3.5
 - PyTorch
 - Scikit-learn
 - NumPy
@@ -84,11 +50,11 @@ Corresponding text files for testing this repository are provided in the ``gen_f
 ### Running the code
 For running word recognition use the command:
 ```sh
-python3 word_recognition.py
+python word_recognition.py
 ```
 For running word recognition with confidence score use the command:
 ```sh
-python3 word_recognition.py --use_confidence=True
+python word_recognition.py --use_confidence=True
 ```
 Other agruments for word recognition experiment are:
 ```sh
@@ -104,11 +70,11 @@ Other agruments for word recognition experiment are:
 
 For running word retrieval use the command:
 ```sh
-python3 word_retrieval.py
+python word_retrieval.py
 ```
 For running word retrieval's naive merge experiment use the command:
 ```sh
-python3 word_retrieval.py --experiment_label=naive_merge
+python word_retrieval.py --experiment_label=naive_merge
 ```
 Other options for `experiment_label` are: `ocr_rank` and `query_expand`
 
@@ -118,7 +84,11 @@ Other major arguments for word retrieval experiment are:
 - `annotations_path` is used to provide path to the text file containing annotations
 - `ocr_opt_path` is used to provide path to the text file containing OCR predictions
 
+TODO
+-----------
+- Add citation information
+- Add link to arXiv paper
+
 Contact
 -----------
 In case of any query contact Siddhant Bansal, [siddhant.bansal@students.iiit.ac.in](siddhant.bansal@students.iiit.ac.in)
-<!-- TODO Add citation information -->
