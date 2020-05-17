@@ -12,10 +12,10 @@ This repository contains code for the paper
 published in DAS 2020.
 
 ### Word Recognition Results
-![Word Recognition](images/WordRecVisualisation.png)
+![Word Recognition](resources/WordRecVisualisation.png)
 
 ### Word Retrieval Demonstration
-![Word Retrieval](images/Word_Retrieval_demo.gif)
+![Word Retrieval](resources/Word_Retrieval_demo.gif)
 
 Usage
 -----------
