@@ -11,10 +11,10 @@ This repository contains code for the paper
 "**Fused Text Recogniser and Deep Embeddings Improve Word Recognition and Retrieval**" *[Siddhant Bansal](https://sid2697.github.io), [Praveen Krishnan](https://kris314.github.io), [C.V. Jawahar](https://faculty.iiit.ac.in/~jawahar/index.html)* 
 published in DAS 2020.
 
-### Word Recognition Results
+## Word Recognition Results
 ![Word Recognition](resources/WordRecVisualisation.png)
 
-### Word Retrieval Demonstration
+## Word Retrieval Demonstration
 ![Word Retrieval](resources/Word_Retrieval_demo.gif)
 
 Usage
@@ -56,7 +56,7 @@ For running word recognition with confidence score use the command:
 ```sh
 python word_recognition.py --use_confidence=True
 ```
-Other agruments for word recognition experiment are:
+Other arguments for word recognition experiment are:
 ```sh
 --image_embeds
 --topk_embeds
@@ -91,4 +91,4 @@ TODO
 
 Contact
 -----------
-In case of any query contact Siddhant Bansal, [siddhant.bansal@students.iiit.ac.in](siddhant.bansal@students.iiit.ac.in)
+In case of any query contact [Siddhant Bansal](https://sid2697.github.io).
