@@ -12,13 +12,13 @@ This repository contains code for the paper
 published in DAS 2020.
 
 ## Word Recognition Results
------------
+<!-- ----------- -->
 ![Word Recognition](resources/WordRecVisualisation.png)
 
 ## Word Retrieval Demonstration
 <!-- ![Word Retrieval](resources/Word_Retrieval_demo.gif) -->
 
------------
+<!-- ----------- -->
 Click on the image to play the video.
 
 [![IMAGE ALT TEXT](resources/Thumbnail.png)](https://youtu.be/3_InpQoJCMg)
