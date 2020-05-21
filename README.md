@@ -15,7 +15,8 @@ published in DAS 2020.
 ![Word Recognition](resources/WordRecVisualisation.png)
 
 ## Word Retrieval Demonstration
-![Word Retrieval](resources/Word_Retrieval_demo.gif)
+<!-- ![Word Retrieval](resources/Word_Retrieval_demo.gif) -->
+[![IMAGE ALT TEXT](resources/Thumbnail.png)](https://youtu.be/3_InpQoJCMg)
 
 Usage
 -----------
