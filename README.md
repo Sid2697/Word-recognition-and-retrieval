@@ -12,14 +12,19 @@ This repository contains code for the paper
 published in DAS 2020.
 
 ## Word Recognition Results
+---
 ![Word Recognition](resources/WordRecVisualisation.png)
 
 ## Word Retrieval Demonstration
 <!-- ![Word Retrieval](resources/Word_Retrieval_demo.gif) -->
+
+---
+Click on the image to play the video.
+
 [![IMAGE ALT TEXT](resources/Thumbnail.png)](https://youtu.be/3_InpQoJCMg)
 
-Usage
------------
+## Usage
+---
 ### Cloning the repository
 ```
 git clone https://github.com/Sid2697/Word-recognition-and-retrieval.git
@@ -87,9 +92,11 @@ Other major arguments for word retrieval experiment are:
 
 TODO
 -----------
+---
 - Add citation information
 - Add link to arXiv paper
 
 Contact
 -----------
+---
 In case of any query contact [Siddhant Bansal](https://sid2697.github.io).
