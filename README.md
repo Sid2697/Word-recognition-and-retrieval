@@ -1,10 +1,9 @@
 Fused Text Recogniser and Deep Embeddings Improve Word Recognition and Retrieval
 =================================================================================
-<!-- TODO: Add the link to archive paper -->
-<!-- [![arXiv](https://img.shields.io/badge/cs.cv-arXiv%3A1908.05849-42ba94.svg)](http://arxiv.org/abs/1908.05849) -->
+[![arXiv](https://img.shields.io/badge/cs.cv-arXiv%3A2007.00166-42ba94.svg)](http://arxiv.org/abs/2007.00166)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-### [Project page](https://sid2697.github.io/Word-recognition-and-retrieval/) | [Demonstration](https://sid2697.github.io/files/Word_Retrieval_demo.gif) | [Poster](https://sid2697.github.io/files/Siddhant_Bansal_V4.pdf) | Paper
+### [Project page](https://sid2697.github.io/Word-recognition-and-retrieval/) | [Paper](https://arxiv.org/pdf/2007.00166.pdf) | [Demonstration](https://sid2697.github.io/files/Word_Retrieval_demo.gif) | [Poster](https://sid2697.github.io/files/Siddhant_Bansal_V4.pdf) | [Springer](https://link.springer.com/chapter/10.1007/978-3-030-57058-3_22)
 
 This repository contains code for the paper
 
@@ -90,10 +89,22 @@ Other major arguments for word retrieval experiment are:
 - `annotations_path` is used to provide path to the text file containing annotations
 - `ocr_opt_path` is used to provide path to the text file containing OCR predictions
 
-TODO
------------
-- Add citation information
-- Add link to arXiv paper
+License and Citation
+---------------------
+
+The software is licensed under the MIT License. If you find this work useful, please cite the following paper:
+
+```
+@InProceedings{10.1007/978-3-030-57058-3_22,
+author="Bansal, Siddhant and Krishnan, Praveen and Jawahar, C. V.",
+title="Fused Text Recogniser and Deep Embeddings Improve Word Recognition and Retrieval",
+booktitle="Document Analysis Systems",
+year="2020",
+publisher="Springer International Publishing",
+pages="309--323",
+isbn="978-3-030-57058-3"
+}
+```
 
 Contact
 -----------
