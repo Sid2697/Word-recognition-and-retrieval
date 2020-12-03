@@ -45,12 +45,18 @@ The deep embeddings used in this work are generated using the End2End network pr
 ```
 Krishnan, P., Dutta, K., Jawahar, C.V.: Word spotting and recognition using deep embedding. In: 2018 13th IAPR International Workshop on Document Analysis Systems (DAS). pp. 1–6 (April 2018). https://doi.org/10.1109/DAS.2018.70
 ```
-Word text and image's deep embeddings for testing this repository are provided in the ```embeddings``` folder.
+Word text and image's deep embeddings for testing this repository are provided in the ``embeddings`` folder.
 Text files containing the information about the embeddings are required while running the code. They are in the format<br>
-```<img1-path><space><text1-string><space><dummyInt><space>1```<br>
-```<img2-path><space><text2-string><space><dummyInt><space>1```<br>
-...<br>
-Corresponding text files for testing this repository are provided in the ``gen_files`` folder.
+```
+<img1-path><space><text1-string><space><dummyInt><space>1
+<img2-path><space><text2-string><space><dummyInt><space>1
+...
+```
+One can refer to and use [https://github.com/kris314/hwnet](https://github.com/kris314/hwnet) for generating embeddings.
+
+For the purpose of making it easier to explore the code in this repository, sample text files and embeddings are provided in ``gen_files`` and ``embeddings``, respectively.
+
+Original Dataset used in this work will be released by [CVIT](http://cvit.iiit.ac.in) soon.
 
 ### Running the code
 For running word recognition use the command:
